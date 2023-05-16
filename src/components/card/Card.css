@@ -1,0 +1,76 @@
+:root {
+  --card-scale: 0.25;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: 0px -130px;
+}
+
+.card {
+  width: 360px;
+  height: 530px;
+  object-fit: none;
+  transform: scale(var(--card-scale));
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.card-back {
+  width: 360px;
+  height: 530px;
+  background-color: white;
+  transform: scale(var(--card-scale));
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-card-back {
+  width: 88%;
+  height: 92%;
+  background-color: black;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-card-back.two {
+  width: 82%;
+  height: 88%;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.inner-card-back.three {
+  width: 76%;
+  height: 84%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.inner-card-back.four {
+  width: 70%;
+  height: 82%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.inner-card-back.five {
+  width: 54%;
+  height: 72%;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}

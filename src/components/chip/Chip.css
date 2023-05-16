@@ -1,0 +1,28 @@
+.chip-container {
+  position: absolute;
+  color: white;
+  margin-top: 320px;
+  margin-left: 85px;
+  font-weight: bolder;
+  font-size: 12px;
+  background-color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  line-height: 10px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+}
+
+.chip-value {
+  margin-top: 14px;
+}
+
+.multiple {
+  position: relative;
+  margin-left: -20px;
+}
+
+.single {
+  margin-left: -20px;
+}

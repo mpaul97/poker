@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* overflow: hidden; */
+  min-width: 1000px;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    overflow-x: auto;
+  }
 }
 
 code {
